@@ -1,0 +1,33 @@
+#!/usr/bin/env python
+
+"""Test for  python cli"""
+import json
+import sys
+import os
+import pandas as pd
+
+from Sales_data_pipelines import merger_dt
+
+
+if __name__ == '__main__':
+    sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
+
+
+
+class TestPythonCLI(unittest.TestCase):
+    """Test class for Quality python cli"""
+
+    def setUp(self) -> None:
+        """Set up"""
+        pass
+
+    def test_1_netsuite_response(self):
+        for script_id in args_value.code:
+            response_api = login_netsuite(
+                script_id=script_id, cred=args_value.secret_response)
+            assert(response_api.status_code == 200)
+            data = json.loads(response_api.json())['data']
+
+            assert (len(data) >= 1)
+            assert ('id' in str(data))

@@ -1,0 +1,15 @@
+INFO:root:Data Quality Check started
+INFO:root:Data Quality Check Finished
+INFO:root:Data Quality Check started
+INFO:root:Data Quality Check Finished
+INFO:root:Data Quality Check started
+INFO:root:Data Quality Check Finished
+INFO:root:Data Merger started
+INFO:root:Datasets successfully merged
+INFO:root:Discount csv saved successfully
+INFO:root:Unique Products csv saved successfully
+INFO:root:Started extracting date,month and year
+INFO:root:Data saved in parquet format Successfully
+INFO:root:Total_value csv saved successfully
+INFO:root:calssic_cars_price_month csv saved successfully
+INFO:root:avg_price_per_vehical csv saved successfully
